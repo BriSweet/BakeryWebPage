@@ -1,0 +1,73 @@
+* {
+padding: 0;
+margin: 0;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8ch;
+  font-style: italic;
+  font-size: 2em;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.menu {
+  background-color: royalblue;
+  font-size: 30px;
+  padding: 5px 40px;
+  border-radius: 20px;
+  color: white;
+  list-style: none;
+}
+
+.brand {
+  font-size: 3em;
+  font-weight: bold;
+  color: blue;
+  width: 30%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.paragraph {
+      display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 2ch;
+/* display: flex;
+flex-wrap: wrap;
+flex-direction: column; */
+}
+
+footer {
+  background-color: navy;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  font-size: 30px;
+  color: white;
+}
+
+.main-content {
+display: flex;
+gap: 20px;
+ align-items: center;
+ justify-content: center;
+ flex: 1;
+}
+
+.testimonial {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
