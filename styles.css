@@ -59,7 +59,7 @@ footer {
 
 .main-content {
 display: flex;
-gap: 20px;
+gap: 8rem;
  align-items: center;
  justify-content: center;
  flex: 1;
